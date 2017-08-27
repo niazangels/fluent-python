@@ -15,4 +15,4 @@ expected behavior of infix operators: to create new objects and not touch their 
 "len(x) runs very fast when x is an instance of a built-in type. No method is called for the built-in objects of CPython: the length is simply read from a field in a C struct." - Page 14
 
 "If you only implement one of these special methods, choose `__repr__` , because when
-no custom `__str__` is available, Python will call __repr__ as a fallback."
+no custom `__str__` is available, Python will call __repr__ as a fallback." - Page 11
